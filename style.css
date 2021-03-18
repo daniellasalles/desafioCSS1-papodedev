@@ -25,7 +25,7 @@ body {
 .product-image {
   position: absolute;
   top: -210px;
-
+  left: -30px;
 }
 
 .product-info {
@@ -82,6 +82,7 @@ body {
   opacity: 0;
   position: fixed;
   width: 0;
+  cursor: pointer;
  }
 
  /* Opções - cor */
@@ -97,6 +98,7 @@ body {
 
 label .verde {
   background-color: #B5DB48;
+  
 }
 
 label .vermelho {
@@ -142,7 +144,10 @@ label .vermelho {
   right: 10px;
   bottom: 30px;
 }
-
+.cart:hover {
+  background-color: #a1c934;
+  cursor: pointer;
+}
 .material-icons {
   color: white;
 }
